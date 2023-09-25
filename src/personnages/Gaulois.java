@@ -30,14 +30,16 @@ public class Gaulois{
 		
 	}
 
-	@Override
-	public String toString() {
-		return "Gaulois [nom=" + nom + ", force=" + force + "]";
-	}
+//	@Override
+//	public String toString() {
+//		return "Gaulois [nom=" + nom + ", force=" + force + "]";
+//	}
 	
 	public static void main(String[] args) {
-		//TODO
-		System.out.println("coiyfiu");
+		Gaulois Asterix = new Gaulois("Asterix", 8);
+		System.out.println(Asterix.getNom());
+	
 	}
 }
+
 
