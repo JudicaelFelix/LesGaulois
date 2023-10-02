@@ -2,7 +2,7 @@ package personnages;
 
 public class Romain {
 	private String nom;
-	private int force;
+	public int force;
 	
 	public Romain(String nom, int force) {
 		this.nom = nom;
@@ -19,7 +19,7 @@ public class Romain {
 	}
 	
 	private String prendreparole() {
-		return "Le romain" + nom + ":";
+		return "Le romain " + nom + ":";
 		
 	}
 	
@@ -33,6 +33,7 @@ public class Romain {
 
 		}
 		}
-		
+
+	
 	}
 
